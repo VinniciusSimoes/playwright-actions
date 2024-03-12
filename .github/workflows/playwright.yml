@@ -12,7 +12,7 @@ jobs:
     - name: Get code
     - uses: actions/checkout@v4
 
-    -name: Install Node latest
+    - name: Install Node latest
     - uses: actions/setup-node@v4
       with:
         node-version: lts/*
